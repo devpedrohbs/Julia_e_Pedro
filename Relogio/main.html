@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital 06:00</title>
+    <style>
+        body {
+            background-color: #2c3e50; /* Um azul escuro acinzentado para o fundo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif; /* Fonte simples e limpa */
+        }
+
+        .relogio {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Espaço entre as placas e o separador */
+        }
+
+        .placa-numero, .separador {
+            background-color: #ecf0f1; /* Cor clara para as placas */
+            color: #34495e; /* Cor escura para os números/separador */
+            border-radius: 10px; /* Bordas levemente arredondadas para um visual suave */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+            text-align: center;
+        }
+
+        .placa-numero {
+            width: 150px; /* Largura da placa */
+            height: 200px; /* Altura da placa */
+            font-size: 120px; /* Tamanho do número */
+            line-height: 200px; /* Centraliza o número verticalmente */
+            font-weight: bold;
+        }
+
+        .separador {
+            width: 50px; /* Largura do separador */
+            height: 150px; /* Altura do separador */
+            font-size: 100px; /* Tamanho do separador */
+            line-height: 150px; /* Centraliza o separador verticalmente */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="relogio">
+        <div class="placa-numero">0</div>
+        <div class="placa-numero">6</div>
+        <div class="separador">:</div>
+        <div class="placa-numero">0</div>
+        <div class="placa-numero">0</div>
+    </div>
+
+</body>
+</html>
